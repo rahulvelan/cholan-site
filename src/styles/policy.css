@@ -1,0 +1,36 @@
+.policy {
+  max-width: 760px;
+}
+.policy__note {
+  border-radius: var(--radius-sm);
+  background: var(--gold-100);
+  border: 1px solid var(--gold-400);
+  color: var(--gold-600);
+  margin-bottom: 40px;
+  padding: 14px 18px;
+  font-size: 0.9rem;
+}
+.policy__block {
+  margin-bottom: 34px;
+}
+.policy__block h2 {
+  margin-bottom: 8px;
+  font-size: 1.25rem;
+}
+.policy__block p {
+  color: var(--ink-soft);
+  margin: 0;
+}
+.policy__foot {
+  border-top: 1px solid var(--line);
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 16px;
+  padding-top: 28px;
+  display: flex;
+}
+.policy__foot p {
+  margin: 0;
+  font-size: 0.86rem;
+}
